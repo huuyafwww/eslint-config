@@ -38,5 +38,8 @@
   },
   "peerDependencies": {
     "eslint": "9.14.0"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
