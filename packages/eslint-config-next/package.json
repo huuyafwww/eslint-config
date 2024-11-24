@@ -1,7 +1,7 @@
 {
   "name": "@huuyafwww/eslint-config-next",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "exports": {
     "require": {
@@ -41,6 +41,7 @@
     "eslint": "9.14.0"
   },
   "publishConfig": {
-    "provenance": true
+    "access": "public",
+    "provenance": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@huuyafwww/eslint-config",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "This repository is a detailed package of ESLint rules for me.",
   "homepage": "https://github.com/huuyafwww/eslint-config",
   "bugs": {
@@ -31,5 +31,9 @@
   "packageManager": "pnpm@9.12.3",
   "engines": {
     "pnpm": ">=9.12.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": false
   }
 }
