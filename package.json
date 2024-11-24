@@ -1,0 +1,30 @@
+{
+  "name": "@huuyafwww/eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This repository is a detailed package of ESLint rules for me.",
+  "homepage": "https://github.com/huuyafwww/eslint-config",
+  "bugs": {
+    "url": "https://github.com/huuyafwww/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuyafwww/eslint-config.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "build:watch": "turbo run build:watch",
+    "clean": "turbo run clean",
+    "lint:code": "turbo lint:code",
+    "sort:package": "sort-package-json && turbo run sort:package"
+  },
+  "devDependencies": {
+    "sort-package-json": "^2.10.1",
+    "turbo": "^2.3.0"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "pnpm": ">=9.12.3"
+  }
+}

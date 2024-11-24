@@ -1,0 +1,43 @@
+{
+  "name": "@huuyafwww/eslint-config-browser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "scripts": {
+    "build": "pkgroll --minify",
+    "build:watch": "pkgroll --watch",
+    "clean": "rimraf node_modules",
+    "lint:code": "eslint .",
+    "sort:package": "sort-package-json"
+  },
+  "dependencies": {
+    "@praha/eslint-config-definer": "^1.0.5",
+    "globals": "^15.11.0"
+  },
+  "devDependencies": {
+    "@huuyafwww/eslint-config-common": "workspace:*",
+    "@huuyafwww/eslint-config-node": "workspace:*",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^22.9.3",
+    "eslint": "9.14.0",
+    "pkgroll": "^2.5.1",
+    "rimraf": "^6.0.1",
+    "sort-package-json": "^2.10.1"
+  },
+  "peerDependencies": {
+    "eslint": "9.14.0"
+  }
+}

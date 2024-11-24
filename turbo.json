@@ -1,0 +1,25 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "build:watch": {
+      "dependsOn": ["^build:watch"],
+      "outputs": ["dist/**"]
+    },
+    "clean": {
+      "cache": false,
+      "inputs": ["package.json"]
+    },
+    "sort:package": {
+      "dependsOn": ["^sort:package"],
+      "inputs": ["package.json"]
+    },
+    "lint:code": {
+      "dependsOn": ["^lint:code"],
+      "inputs": ["package.json"]
+    }
+  }
+}
