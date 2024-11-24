@@ -8,11 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup
+      - name: Setup pnpm
         uses: ./.github/actions/setup/pnpm
 
-      - name: Build
+      - name: Build packages
         run: pnpm run build

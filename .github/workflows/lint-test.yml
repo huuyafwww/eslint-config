@@ -11,10 +11,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup
+      - name: Setup pnpm
         uses: ./.github/actions/setup/pnpm
 
-      - name: Lint
       - name: Build packages
         run: pnpm run build
+
+      - name: Lint Code
         run: pnpm run lint:code
