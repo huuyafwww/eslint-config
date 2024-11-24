@@ -18,6 +18,7 @@
     "clean": "turbo run clean",
     "lint:code": "turbo lint:code",
     "sort:package": "sort-package-json && turbo run sort:package",
+    "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
   },
