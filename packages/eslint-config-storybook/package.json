@@ -20,7 +20,7 @@
     "build": "pkgroll --minify",
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules",
-    "lint:code": "eslint .",
+    "lint:code": "eslint . --cache",
     "sort:package": "sort-package-json"
   },
   "dependencies": {
