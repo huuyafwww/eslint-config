@@ -24,7 +24,7 @@
     "sort:package": "sort-package-json"
   },
   "dependencies": {
-    "@praha/eslint-config-definer": "^1.0.5",
+    "@praha/eslint-config-definer": "^2.0.0",
     "@stylistic/eslint-plugin-js": "^2.11.0",
     "eslint-plugin-import-x": "^4.4.3",
     "eslint-plugin-react": "^7.37.1",
