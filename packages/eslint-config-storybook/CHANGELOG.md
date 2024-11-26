@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-storybook
 
+## 1.0.1
+
+### Patch Changes
+
+- [#7](https://github.com/huuyafwww/eslint-config/pull/7) [`96ac874`](https://github.com/huuyafwww/eslint-config/commit/96ac874f631e8ec103c4d324dcc771bf4978e52e) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update @praha/eslint-config-definer and typescript dependency organized
+
 ## 1.0.0
 
 ### Major Changes
