@@ -9,32 +9,32 @@ This repository is a detailed package of ESLint rules for me.
 
 ## packages
 
-|Name|Include rule|
-|---|---|
-|@huuyafwww/eslint-config-browser|Browser|
-|@huuyafwww/eslint-config-common|JavaScript, TypeScript, import in ESM|
-|@huuyafwww/eslint-config-next|Next.js|
-|@huuyafwww/eslint-config-node|Node.js|
-|@huuyafwww/eslint-config-react|React|
-|@huuyafwww/eslint-config-storybook|Storybook|
+|Name|Include rule|Package|
+|---|---|---|
+|[`@huuyafwww/eslint-config-browser`](packages/eslint-config-browser)|Browser|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-browser.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-browser)|
+|[`@huuyafwww/eslint-config-common`](packages/eslint-config-common)|JavaScript, TypeScript, import in ESM|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-common.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-common)|
+|[`@huuyafwww/eslint-config-next`](packages/eslint-config-next)|Next.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-next.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-next)|
+|[`@huuyafwww/eslint-config-node`](packages/eslint-config-node)|Node.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-node.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-node)|
+|[`@huuyafwww/eslint-config-react`](packages/eslint-config-react)|React|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-react.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-react)|
+|[`@huuyafwww/eslint-config-storybook`](packages/eslint-config-storybook)|Storybook|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-storybook.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-storybook)|
 
 
 ## Features
 
 All packages support Flat Config 🚀
 
-However, legacy Config is not supported  😀
+However, legacy Config is not supported 😀
 
 ## Usage
 
 <details>
 
-<summary> Node.js </summary>
+<summary> Node.js</summary>
 
 ### Installation
 
 ```
-pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node
+pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node @praha/eslint-config-definer
 ```
 
 ### eslint.config.js
@@ -60,12 +60,12 @@ export default config({
 
 <details>
 
-<summary> Next.js </summary>
+<summary> Next.js</summary>
 
 ### Installation
 
 ```
-pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-browser @huuyafwww/eslint-config-react @huuyafwww/eslint-config-next
+pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-browser @huuyafwww/eslint-config-react @huuyafwww/eslint-config-next @praha/eslint-config-definer
 
 # Optional
 pnpm add -D @huuyafwww/eslint-config-storybook
