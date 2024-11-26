@@ -16,8 +16,8 @@
     "build": "turbo run build",
     "build:watch": "turbo run build:watch",
     "clean": "turbo run clean",
-    "lint:code": "turbo lint:code",
-    "sort:package": "sort-package-json && turbo run sort:package",
+    "lint:code": "turbo lint:code --parallel",
+    "sort:package": "sort-package-json && turbo run sort:package --parallel",
     "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
