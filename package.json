@@ -24,7 +24,7 @@
     "version:publish": "changeset publish"
   },
   "lint-staged": {
-    "package.json": [
+    "{package.json,**/package.json}": [
       "bash -c 'pnpm run sort:package'"
     ]
   },
