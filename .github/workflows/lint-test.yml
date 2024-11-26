@@ -17,7 +17,7 @@ jobs:
       - name: Build packages
         run: pnpm run build
 
-      - name: Setup Turborepo cache
+      - name: Setup ESLint cache
         uses: actions/cache@v4
         with:
           path: |
