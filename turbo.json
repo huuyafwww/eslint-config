@@ -18,8 +18,8 @@
       "inputs": ["package.json"]
     },
     "lint:code": {
-      "dependsOn": ["^lint:code"],
-      "inputs": ["package.json"]
+      "dependsOn": [],
+      "inputs": ["**/*.ts", "**/*.js"]
     }
   }
 }
