@@ -32,4 +32,4 @@ jobs:
             ${{ runner.os }}-eslint-cache-
 
       - name: Lint Code
-        run: pnpm run lint:code
+        run: pnpm run lint:code -- --cache-strategy content
