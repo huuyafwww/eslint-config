@@ -2,7 +2,16 @@
   "name": "@huuyafwww/eslint-config-react",
   "version": "1.0.1",
   "private": false,
+  "description": "ESLint config for me",
   "type": "module",
+  "homepage": "https://github.com/huuyafwww/eslint-config",
+  "bugs": {
+    "url": "https://github.com/huuyafwww/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuyafwww/eslint-config.git"
+  },
   "exports": {
     "require": {
       "types": "./dist/index.d.cts",
