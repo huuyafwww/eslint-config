@@ -21,7 +21,7 @@ export const typescriptConfigurator: Configurator<typescriptConfiguratorOptions>
       files,
       languageOptions: {
         parserOptions: {
-          // parser,
+          warnOnUnsupportedTypeScriptVersion: false,
           project: options.tsconfigPath,
           tsconfigRootDir: process.cwd(),
         },
