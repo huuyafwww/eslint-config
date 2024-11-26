@@ -1,7 +1,16 @@
 {
   "name": "@huuyafwww/eslint-config-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
+  "description": "ESLint config for me",
+  "homepage": "https://github.com/huuyafwww/eslint-config",
+  "bugs": {
+    "url": "https://github.com/huuyafwww/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuyafwww/eslint-config.git"
+  },
   "type": "module",
   "exports": {
     "require": {
