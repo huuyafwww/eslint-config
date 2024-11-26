@@ -15,6 +15,7 @@
     },
     "sort:package": {
       "dependsOn": [],
+      "cache": false,
       "inputs": ["package.json"]
     },
     "lint:code": {
