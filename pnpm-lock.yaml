@@ -14,9 +14,9 @@ importers:
       '@changesets/cli':
         specifier: ^2.27.10
         version: 2.27.10
-      '@tsconfig/strictest':
-        specifier: ^2.0.5
-        version: 2.0.5
+      '@huuyafwww/tsconfig-common':
+        specifier: ^1.0.2
+        version: 1.0.2
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -539,6 +539,9 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
+  '@huuyafwww/tsconfig-common@1.0.2':
+    resolution: {integrity: sha512-5vlOcaotvqc6kcoNo3upRkLB7zj9o4GLbI+Q6rmKDCUGrkwpVpFvTmoqlCIkaJuLkcuhPLsZ8YDEenXV73T0ZA==}
+
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
@@ -761,9 +764,6 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
-
-  '@tsconfig/strictest@2.0.5':
-    resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -2665,6 +2665,10 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
+  '@huuyafwww/tsconfig-common@1.0.2':
+    dependencies:
+      typescript: 5.7.2
+
   '@isaacs/cliui@8.0.2':
     dependencies:
       string-width: 5.1.2
@@ -2863,8 +2867,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
-
-  '@tsconfig/strictest@2.0.5': {}
 
   '@types/estree@1.0.6': {}
 
