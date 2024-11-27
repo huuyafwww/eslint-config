@@ -1,4 +1,3 @@
-
 # @huuyafwww/eslint-config
 
 
@@ -29,11 +28,11 @@ However, legacy Config is not supported 😀
 
 <details>
 
-<summary> Node.js</summary>
+<summary>Node.js</summary>
 
 ### Installation
 
-```
+```sh
 pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node @praha/eslint-config-definer
 ```
 
@@ -59,11 +58,11 @@ export default config({
 
 <details>
 
-<summary> Next.js</summary>
+<summary>Next.js</summary>
 
 ### Installation
 
-```
+```sh
 pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-browser @huuyafwww/eslint-config-react @huuyafwww/eslint-config-next @praha/eslint-config-definer
 
 # Optional
