@@ -31,7 +31,8 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.10",
-    "@huuyafwww/tsconfig-common": "^1.0.2",
+    "@huuyafwww/tsconfig-common": "^1.0.3",
+    "@tsconfig/strictest": "^2.0.5",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "sort-package-json": "^2.10.1",
