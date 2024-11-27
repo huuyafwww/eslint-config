@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-common
 
+## 1.0.2
+
+### Patch Changes
+
+- [#14](https://github.com/huuyafwww/eslint-config/pull/14) [`ddf53cf`](https://github.com/huuyafwww/eslint-config/commit/ddf53cf50c1c426b05d8e92b225004ddfc684cd7) Thanks [@huuyafwww](https://github.com/huuyafwww)! - add license to npm package
+
 ## 1.0.1
 
 ### Patch Changes
