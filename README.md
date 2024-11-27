@@ -40,10 +40,9 @@ pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node @praha
 ### eslint.config.js
 
 ```javascript
+import { common } from '@huuyafwww/eslint-config-common';
+import { node } from '@huuyafwww/eslint-config-node';
 import { define } from '@praha/eslint-config-definer';
-
-import { common } from './dist/index.mjs';
-import { node } from '../eslint-config-node/dist/index.mjs';
 
 const config = define([
   common,
