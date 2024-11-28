@@ -50,7 +50,7 @@ importers:
         version: link:../eslint-config-node
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -111,7 +111,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -145,7 +145,7 @@ importers:
         version: link:../eslint-config-node
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -176,7 +176,7 @@ importers:
         version: link:../eslint-config-common
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -219,7 +219,7 @@ importers:
         version: link:../eslint-config-node
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -253,7 +253,7 @@ importers:
         version: link:../eslint-config-node
       '@types/node':
         specifier: ^22.9.3
-        version: 22.10.0
+        version: 22.10.1
       eslint:
         specifier: 9.14.0
         version: 9.14.0
@@ -771,8 +771,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@22.10.0':
-    resolution: {integrity: sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==}
+  '@types/node@22.10.1':
+    resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -2308,8 +2308,8 @@ packages:
     resolution: {integrity: sha512-K4jVyjnBdgvc86Y6BkaLZEN933SwYOuBFkdmBu9ZfkcAbdVbpITnDmjvZ/aQjRXQrv5EPkTnD1s39GiiqbngCw==}
     engines: {node: '>= 0.4'}
 
-  which-typed-array@1.1.15:
-    resolution: {integrity: sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==}
+  which-typed-array@1.1.16:
+    resolution: {integrity: sha512-g+N+GAWiRj66DngFwHvISJd+ITsyphZvD1vChfVg6cEdnzy53GzB3oy0fUNlvhz7H7+MiqhYr26qxQShCpKTTQ==}
     engines: {node: '>= 0.4'}
 
   which@2.0.2:
@@ -2835,7 +2835,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@22.10.0':
+  '@types/node@22.10.1':
     dependencies:
       undici-types: 6.20.0
 
@@ -3220,7 +3220,7 @@ snapshots:
       typed-array-byte-offset: 1.0.3
       typed-array-length: 1.0.7
       unbox-primitive: 1.0.2
-      which-typed-array: 1.1.15
+      which-typed-array: 1.1.16
 
   es-define-property@1.0.0:
     dependencies:
@@ -3851,7 +3851,7 @@ snapshots:
 
   is-typed-array@1.1.13:
     dependencies:
-      which-typed-array: 1.1.15
+      which-typed-array: 1.1.16
 
   is-weakmap@2.0.2: {}
 
@@ -4575,7 +4575,7 @@ snapshots:
       isarray: 2.0.5
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.2
-      which-typed-array: 1.1.15
+      which-typed-array: 1.1.16
 
   which-collection@1.0.2:
     dependencies:
@@ -4584,7 +4584,7 @@ snapshots:
       is-weakmap: 2.0.2
       is-weakset: 2.0.3
 
-  which-typed-array@1.1.15:
+  which-typed-array@1.1.16:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.7

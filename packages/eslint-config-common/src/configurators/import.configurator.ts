@@ -1,5 +1,5 @@
 import eslintPluginImportX from 'eslint-plugin-import-x';
-import unusedImports from 'eslint-plugin-unused-imports';
+import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 
 import { files } from '../files';
 
@@ -30,7 +30,7 @@ export const importConfigurator: Configurator<importConfiguratorOptions> = (opti
         },
       },
       plugins: {
-        'unused-imports': unusedImports,
+        'unused-imports': eslintPluginUnusedImports,
         'import-x': eslintPluginImportX as unknown as ESLint.Plugin,
       },
       rules: {
