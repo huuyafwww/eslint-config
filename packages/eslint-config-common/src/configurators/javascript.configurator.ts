@@ -1,5 +1,5 @@
-import js from '@eslint/js';
-import stylistic from '@stylistic/eslint-plugin';
+import eslintPluginJs from '@eslint/js';
+import eslintPluginStylistic from '@stylistic/eslint-plugin';
 
 import { files } from '../files';
 
@@ -7,14 +7,14 @@ import type { Configurator } from '@praha/eslint-config-definer';
 
 export const javascriptConfigurator: Configurator = () => {
   return [
-    js.configs.recommended,
+    eslintPluginJs.configs.recommended,
     {
       files,
       plugins: {
-        '@stylistic': stylistic,
+        '@stylistic': eslintPluginStylistic,
       },
       rules: {
-        ...stylistic.configs.customize({
+        ...eslintPluginStylistic.configs.customize({
           semi: true,
         }).rules,
         'yoda': 'off',
