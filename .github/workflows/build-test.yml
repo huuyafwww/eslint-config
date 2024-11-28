@@ -1,8 +1,6 @@
 name: Build test
 
-on:
-  pull_request:
-    types: [opened, reopened, synchronize]
+on: push
 
 jobs:
   build:
