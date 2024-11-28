@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-common
 
+## 1.0.3
+
+### Patch Changes
+
+- [#18](https://github.com/huuyafwww/eslint-config/pull/18) [`f34d8cf`](https://github.com/huuyafwww/eslint-config/commit/f34d8cf4be6394cdf1d4b0f08b97eedeeb9bc60d) Thanks [@huuyafwww](https://github.com/huuyafwww)! - add typescript parser
+
 ## 1.0.2
 
 ### Patch Changes
