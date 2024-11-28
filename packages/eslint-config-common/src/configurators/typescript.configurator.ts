@@ -1,5 +1,5 @@
 import stylisticTs from '@stylistic/eslint-plugin-ts';
-// import parser from '@typescript-eslint/parser';
+import parser from '@typescript-eslint/parser';
 import tseslint from 'typescript-eslint';
 
 import { files } from '../files';
@@ -21,6 +21,7 @@ export const typescriptConfigurator: Configurator<typescriptConfiguratorOptions>
       files,
       languageOptions: {
         parserOptions: {
+          parser,
           warnOnUnsupportedTypeScriptVersion: false,
           project: options.tsconfigPath,
           tsconfigRootDir: process.cwd(),
