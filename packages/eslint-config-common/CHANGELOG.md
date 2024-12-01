@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-common
 
+## 1.0.4
+
+### Patch Changes
+
+- [#20](https://github.com/huuyafwww/eslint-config/pull/20) [`7a13334`](https://github.com/huuyafwww/eslint-config/commit/7a1333450ba2610f82f4d7e6ef35f919fd67825a) Thanks [@huuyafwww](https://github.com/huuyafwww)! - disable @typescript-eslint/no-empty-object-type
+
 ## 1.0.3
 
 ### Patch Changes
