@@ -57,6 +57,7 @@ export const typescriptConfigurator: Configurator<typescriptConfiguratorOptions>
             attributes: false,
           },
         }],
+        '@typescript-eslint/no-empty-object-type': 'off',
         '@stylistic/ts/semi': ['error', 'always'],
         '@stylistic/ts/comma-dangle': ['error', 'always-multiline'],
         '@stylistic/ts/space-before-function-paren': ['error', {
