@@ -1,6 +1,6 @@
 {
   "name": "@huuyafwww/eslint-config-common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "ESLint config for me",
   "homepage": "https://github.com/huuyafwww/eslint-config",

@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-common
 
+## 1.0.5
+
+### Patch Changes
+
+- [#22](https://github.com/huuyafwww/eslint-config/pull/22) [`b81347d`](https://github.com/huuyafwww/eslint-config/commit/b81347df969c007e44fe5b2b9cf11cba2dcba861) Thanks [@huuyafwww](https://github.com/huuyafwww)! - disable no-extra-boolean-cast
+
 ## 1.0.4
 
 ### Patch Changes
