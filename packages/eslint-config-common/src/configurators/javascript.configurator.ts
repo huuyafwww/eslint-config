@@ -20,6 +20,7 @@ export const javascriptConfigurator: Configurator = () => {
         'yoda': 'off',
         'object-curly-spacing': 'off',
         'unused-imports/no-unused-imports': 'error',
+        'no-extra-boolean-cast': 'off',
       },
     },
   ];
