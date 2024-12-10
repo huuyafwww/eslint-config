@@ -1,6 +1,9 @@
 name: Type test
 
-on: push
+on:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   type:
