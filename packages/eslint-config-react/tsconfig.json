@@ -2,5 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": [
     "../../tsconfig.json",
-  ]
+  ],
+  "exclude": ["eslint.config.js"],
 }
