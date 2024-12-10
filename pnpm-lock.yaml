@@ -134,8 +134,8 @@ importers:
         specifier: ^15.0.3
         version: 15.0.3
       '@praha/eslint-config-definer':
-        specifier: ^1.0.5
-        version: 1.0.5(eslint@9.14.0)
+        specifier: ^2.0.0
+        version: 2.0.0(eslint@9.14.0)
     devDependencies:
       '@huuyafwww/eslint-config-common':
         specifier: workspace:*
@@ -577,11 +577,6 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
-
-  '@praha/eslint-config-definer@1.0.5':
-    resolution: {integrity: sha512-qn5vB7G99PsYZa2TbunzHkFtx8zpJm7nvydDWft9pUiy9uU7jQNK/nW8wcXupUHPA8zIPC+qxn7gFGqLX6iF9w==}
-    peerDependencies:
-      eslint: ^8.0.0
 
   '@praha/eslint-config-definer@2.0.0':
     resolution: {integrity: sha512-QJhognD1P1ccR0DWE1trEptnGLo7lewXffw9Lnh0p8qkRYIZaqUzoUv3neO5VXk8QB0PZTk4KyEDUHbrTjdhfQ==}
@@ -2680,10 +2675,6 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
-
-  '@praha/eslint-config-definer@1.0.5(eslint@9.14.0)':
-    dependencies:
-      eslint: 9.14.0
 
   '@praha/eslint-config-definer@2.0.0(eslint@9.14.0)':
     dependencies:

@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^15.0.3",
-    "@praha/eslint-config-definer": "^1.0.5"
+    "@praha/eslint-config-definer": "^2.0.0"
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
