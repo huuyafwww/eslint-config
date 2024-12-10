@@ -35,6 +35,7 @@
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules",
     "lint:code": "eslint . --cache",
+    "lint:type": "tsc --pretty --noEmit",
     "sort:package": "sort-package-json"
   },
   "dependencies": {

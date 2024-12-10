@@ -17,6 +17,7 @@
     "build:watch": "turbo run build:watch",
     "clean": "turbo run clean",
     "lint:code": "turbo lint:code --parallel",
+    "lint:type": "turbo lint:type --parallel",
     "prepare": "husky",
     "sort:package": "sort-package-json && turbo run sort:package --parallel",
     "version": "changeset",
