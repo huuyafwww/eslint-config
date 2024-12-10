@@ -12,5 +12,8 @@ jobs:
       - name: Setup pnpm
         uses: ./.github/actions/setup/pnpm
 
-      - name: Lint Code
+      - name: Build packages
+        run: pnpm run build
+
+      - name: Lint Type
         run: pnpm run lint:type
