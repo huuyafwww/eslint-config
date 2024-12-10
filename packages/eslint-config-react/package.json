@@ -35,14 +35,15 @@
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules",
     "lint:code": "eslint . --cache",
+    "lint:type": "tsc --pretty --noEmit",
     "sort:package": "sort-package-json"
   },
   "dependencies": {
     "@praha/eslint-config-definer": "^2.0.0",
-    "@stylistic/eslint-plugin-js": "^2.11.0",
-    "eslint-plugin-import-x": "^4.4.3",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^5.0.0"
+    "@stylistic/eslint-plugin-js": "^2.12.0",
+    "eslint-plugin-import-x": "^4.5.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0"
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
@@ -51,7 +52,7 @@
     "eslint": "9.14.0",
     "pkgroll": "^2.5.1",
     "rimraf": "^6.0.1",
-    "sort-package-json": "^2.10.1",
+    "sort-package-json": "^2.12.0",
     "typescript": "^5.6.3"
   },
   "peerDependencies": {

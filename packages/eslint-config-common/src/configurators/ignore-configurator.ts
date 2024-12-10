@@ -23,6 +23,9 @@ export const ignoreConfigurator: Configurator = () => {
         '**/.swc',
         '**/.turbo',
 
+        // Config files
+        '**/tsconfig.json',
+
       ],
     },
   ];

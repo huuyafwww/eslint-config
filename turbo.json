@@ -21,6 +21,10 @@
     "lint:code": {
       "dependsOn": [],
       "inputs": ["**/*.ts", "**/*.js"]
+    },
+    "lint:type": {
+      "dependsOn": [],
+      "inputs": ["**/*.ts"]
     }
   }
 }
