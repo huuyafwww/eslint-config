@@ -1,3 +1,4 @@
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 
@@ -23,11 +24,11 @@ export const importConfigurator: Configurator<importConfiguratorOptions> = (opti
         'import-x/parsers': {
           '@typescript-eslint/parser': ['.ts', '.tsx', '.cts', '.mts', '.js', '.mjs'],
         },
-        'import-x/resolver': {
-          typescript: {
+        'import-x/resolver-next': [
+          createTypeScriptImportResolver({
             project: options.tsconfigPath,
-          },
-        },
+          }),
+        ],
       },
       plugins: {
         'unused-imports': eslintPluginUnusedImports,

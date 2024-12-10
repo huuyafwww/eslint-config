@@ -34,7 +34,7 @@
     "@huuyafwww/tsconfig-common": "^1.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
-    "sort-package-json": "^2.10.1",
+    "sort-package-json": "^2.12.0",
     "turbo": "^v2.3.2",
     "typescript": "^5.6.3"
   },
