@@ -1,6 +1,6 @@
 {
   "name": "@huuyafwww/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "ESLint config for me",
   "homepage": "https://github.com/huuyafwww/eslint-config",

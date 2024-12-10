@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-react
 
+## 1.0.3
+
+### Patch Changes
+
+- [#24](https://github.com/huuyafwww/eslint-config/pull/24) [`e7b519a`](https://github.com/huuyafwww/eslint-config/commit/e7b519a5c8edbe7a252b44ef24ca7a06c405860e) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update packages and remove unused packages.
+
 ## 1.0.2
 
 ### Patch Changes
