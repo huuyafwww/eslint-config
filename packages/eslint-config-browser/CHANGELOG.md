@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-browser
 
+## 1.1.1
+
+### Patch Changes
+
+- [#29](https://github.com/huuyafwww/eslint-config/pull/29) [`999534f`](https://github.com/huuyafwww/eslint-config/commit/999534f82c0894676c225053b42b9cd878178824) Thanks [@huuyafwww](https://github.com/huuyafwww)! - Update dependencies.
+
 ## 1.1.0
 
 ### Minor Changes
