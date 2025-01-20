@@ -1,6 +1,9 @@
 import { common } from '@huuyafwww/eslint-config-common';
-import { node } from '@huuyafwww/eslint-config-node';
 import { define } from '@praha/eslint-config-definer';
+
+import { node } from './dist/index.mjs';
+
+import type { Linter } from 'eslint';
 
 const config = define([
   common,
@@ -9,4 +12,4 @@ const config = define([
 
 export default config({
   tsconfigPath: './tsconfig.json',
-});
+}) satisfies Linter.Config[];
