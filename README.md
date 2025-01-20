@@ -26,6 +26,13 @@ However, legacy Config is not supported 😀
 
 ## Usage
 
+### Require
+
+|Name|Version|
+|---|---|
+|eslint|9.18.0|
+|jiti|^2.4.2|
+
 <details>
 
 <summary>Node.js</summary>
@@ -36,12 +43,14 @@ However, legacy Config is not supported 😀
 pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node @praha/eslint-config-definer
 ```
 
-### eslint.config.js
+### eslint.config.ts
 
-```javascript
+```typescript
 import { common } from '@huuyafwww/eslint-config-common';
 import { node } from '@huuyafwww/eslint-config-node';
 import { define } from '@praha/eslint-config-definer';
+
+import type { Linter } from 'eslint';
 
 const config = define([
   common,
@@ -50,7 +59,7 @@ const config = define([
 
 export default config({
   tsconfigPath: './tsconfig.json',
-});
+}) satisfies Linter.Config[];
 
 ```
 
@@ -69,15 +78,17 @@ pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-browser @hu
 pnpm add -D @huuyafwww/eslint-config-storybook
 ```
 
-### eslint.config.js
+### eslint.config.ts
 
-```javascript
+```typescript
 import { browser } from '@huuyafwww/eslint-config-browser';
 import { common } from '@huuyafwww/eslint-config-common';
 import { next } from '@huuyafwww/eslint-config-next';
 import { react } from '@huuyafwww/eslint-config-react';
 import { storybook } from '@huuyafwww/eslint-config-storybook';
 import { define } from '@praha/eslint-config-definer';
+
+import type { Linter } from 'eslint';
 
 const config = define([
   common,
@@ -89,7 +100,7 @@ const config = define([
 
 export default config({
   tsconfigPath: './tsconfig.json',
-});
+}) satisfies Linter.Config[];
 ```
 
 </details>
