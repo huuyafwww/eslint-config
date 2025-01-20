@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-react
 
+## 1.1.0
+
+### Minor Changes
+
+- [#27](https://github.com/huuyafwww/eslint-config/pull/27) [`1e13e5f`](https://github.com/huuyafwww/eslint-config/commit/1e13e5f9f6e45b4341ec090ee0b8e16cf735b5d5) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update ESLint. and add eslint.config.ts example document.
+
 ## 1.0.3
 
 ### Patch Changes
