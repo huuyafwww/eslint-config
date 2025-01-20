@@ -5,12 +5,11 @@ import { files } from '../files';
 
 import type { Configurator } from '@praha/eslint-config-definer';
 import type { Linter } from 'eslint';
-import type { ReactFlatConfig } from 'eslint-plugin-react';
 
 export const reactConfigurator: Configurator = () => {
   return [
-    (eslintPluginReact.configs.flat as Record<string, ReactFlatConfig>)['recommended'] as Linter.Config,
-    (eslintPluginReact.configs.flat as Record<string, ReactFlatConfig>)['jsx-runtime'] as Linter.Config,
+    (eslintPluginReact.configs.flat)['recommended'] as Linter.Config,
+    (eslintPluginReact.configs.flat)['jsx-runtime'] as Linter.Config,
     {
       plugins: {
         '@stylistic/js': eslintPluginStylisticJs,
