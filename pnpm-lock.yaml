@@ -63,9 +63,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -118,9 +115,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -155,9 +149,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -189,9 +180,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -235,9 +223,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -272,9 +257,6 @@ importers:
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
-      sort-package-json:
-        specifier: ^2.14.0
-        version: 2.14.0
       typescript:
         specifier: ^5.7.3
         version: 5.7.3

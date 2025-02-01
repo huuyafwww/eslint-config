@@ -35,8 +35,7 @@
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules",
     "lint:code": "eslint . --cache",
-    "lint:type": "tsc --pretty --noEmit",
-    "sort:package": "sort-package-json"
+    "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "@praha/eslint-config-definer": "^2.0.1",
@@ -49,7 +48,6 @@
     "jiti": "^2.4.2",
     "pkgroll": "^2.6.1",
     "rimraf": "^6.0.1",
-    "sort-package-json": "^2.14.0",
     "typescript": "^5.7.3"
   },
   "peerDependencies": {

@@ -19,7 +19,7 @@
     "lint:code": "turbo lint:code --parallel",
     "lint:type": "turbo lint:type --parallel",
     "prepare": "husky",
-    "sort:package": "sort-package-json && turbo run sort:package --parallel",
+    "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
     "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
