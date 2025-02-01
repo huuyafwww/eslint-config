@@ -13,11 +13,6 @@
       "cache": false,
       "inputs": ["package.json"]
     },
-    "sort:package": {
-      "dependsOn": [],
-      "cache": false,
-      "inputs": ["package.json"]
-    },
     "lint:code": {
       "dependsOn": [],
       "inputs": ["**/*.ts", "**/*.js"]
