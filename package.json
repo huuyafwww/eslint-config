@@ -13,28 +13,21 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --parallel",
     "build:watch": "turbo run build:watch",
     "clean": "turbo run clean",
     "lint:code": "turbo lint:code --parallel",
     "lint:type": "turbo lint:type --parallel",
-    "prepare": "husky",
     "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
     "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
   },
-  "lint-staged": {
-    "{package.json,**/package.json}": [
-      "bash -c 'pnpm run sort:package'"
-    ]
-  },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.11",
     "@huuyafwww/tsconfig-common": "^1.1.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.4.1",
+    "lefthook": "^1.10.10",
     "sort-package-json": "^2.14.0",
     "turbo": "^2.3.3",
     "typescript": "^5.7.3"
