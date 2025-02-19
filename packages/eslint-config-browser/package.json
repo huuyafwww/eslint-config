@@ -1,6 +1,6 @@
 {
   "name": "@huuyafwww/eslint-config-browser",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "description": "ESLint config for me",
   "homepage": "https://github.com/huuyafwww/eslint-config",

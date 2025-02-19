@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-next
 
+## 1.1.2
+
+### Patch Changes
+
+- [#34](https://github.com/huuyafwww/eslint-config/pull/34) [`24b0c16`](https://github.com/huuyafwww/eslint-config/commit/24b0c1649e43eebed2a0712d27cb35eac3d4fdba) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update dependencies
+
 ## 1.1.1
 
 ### Patch Changes
