@@ -38,22 +38,22 @@
     "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "^9.18.0",
+    "@eslint/js": "^9.20.0",
     "@praha/eslint-config-definer": "^2.0.1",
     "@stylistic/eslint-plugin": "^2.13.0",
     "@stylistic/eslint-plugin-ts": "^2.13.0",
-    "@typescript-eslint/eslint-plugin": "^8.20.0",
-    "@typescript-eslint/parser": "^8.20.0",
-    "eslint-import-resolver-typescript": "^3.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint-import-resolver-typescript": "^3.8.2",
     "eslint-plugin-import-x": "^4.6.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.24.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.13.4",
     "eslint": "9.18.0",
     "jiti": "^2.4.2",
-    "pkgroll": "^2.6.1",
+    "pkgroll": "^2.10.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3"
   },

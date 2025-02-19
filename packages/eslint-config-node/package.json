@@ -39,14 +39,14 @@
   },
   "dependencies": {
     "@praha/eslint-config-definer": "^2.0.1",
-    "globals": "^15.14.0"
+    "globals": "^15.15.0"
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.13.4",
     "eslint": "9.18.0",
     "jiti": "^2.4.2",
-    "pkgroll": "^2.6.1",
+    "pkgroll": "^2.10.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3"
   },
