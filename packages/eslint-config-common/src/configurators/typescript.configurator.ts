@@ -1,4 +1,4 @@
-import stylisticTs from '@stylistic/eslint-plugin-ts';
+import eslintPluginTs from '@stylistic/eslint-plugin-ts';
 import parser from '@typescript-eslint/parser';
 import tseslint from 'typescript-eslint';
 
@@ -28,7 +28,7 @@ export const typescriptConfigurator: Configurator<typescriptConfiguratorOptions>
         },
       },
       plugins: {
-        '@stylistic/ts': stylisticTs,
+        '@stylistic/ts': eslintPluginTs,
       },
       rules: {
         '@typescript-eslint/consistent-type-imports': ['error', {
