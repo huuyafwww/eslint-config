@@ -5,7 +5,6 @@ import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 import { files } from '../files';
 
 import type { Configurator } from '@praha/eslint-config-definer';
-import type { ESLint } from 'eslint';
 
 export type importConfiguratorOptions = {
   tsconfigPath: string;
@@ -32,7 +31,6 @@ export const importConfigurator: Configurator<importConfiguratorOptions> = (opti
       },
       plugins: {
         'unused-imports': eslintPluginUnusedImports,
-        'import-x': eslintPluginImportX as unknown as ESLint.Plugin,
       },
       rules: {
         'unused-imports/no-unused-imports': 'error',
