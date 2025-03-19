@@ -43,12 +43,12 @@
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.13.10",
     "eslint": "9.18.0",
     "jiti": "^2.4.2",
-    "pkgroll": "^2.10.0",
+    "pkgroll": "^2.11.2",
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "peerDependencies": {
     "eslint": "9.18.0",
