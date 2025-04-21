@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-storybook
 
+## 1.2.0
+
+### Minor Changes
+
+- [#38](https://github.com/huuyafwww/eslint-config/pull/38) [`6d9285f`](https://github.com/huuyafwww/eslint-config/commit/6d9285f2258a27bc3cf065e4934850446406aa44) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update dependencies
+
 ## 1.1.3
 
 ### Patch Changes
