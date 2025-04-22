@@ -15,7 +15,8 @@
   "scripts": {
     "build": "turbo run build --parallel",
     "build:watch": "turbo run build:watch",
-    "clean": "turbo run clean",
+    "clean": "turbo run clean && pnpm run clean:self",
+    "clean:self": "rimraf node_modules .turbo",
     "lint:code": "turbo lint:code --parallel",
     "lint:type": "turbo lint:type --parallel",
     "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
@@ -28,14 +29,15 @@
     "@changesets/cli": "^2.29.2",
     "@huuyafwww/tsconfig-common": "^1.1.1",
     "lefthook": "^1.11.11",
+    "rimraf": "^6.0.1",
     "sort-package-json": "^2.15.1",
     "turbo": "^2.5.0",
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@10.9.0",
   "engines": {
     "node": ">=22.12.0",
-    "pnpm": ">=9.15.0"
+    "pnpm": ">=10.9.0"
   },
   "publishConfig": {
     "access": "public",

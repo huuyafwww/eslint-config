@@ -1,11 +1,18 @@
 name: Setup
-description: Setup project
+description: Setup pnpm
 
 runs:
   using: composite
   steps:
     - name: Setup pnpm
       uses: pnpm/action-setup@v4
+      with:
+        version: 10.9.0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22.12.0
 
     - name: Expose pnpm store path
       id: pnpm_store_path
