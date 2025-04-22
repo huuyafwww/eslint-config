@@ -33,7 +33,7 @@
   "scripts": {
     "build": "pkgroll --minify",
     "build:watch": "pkgroll --watch",
-    "clean": "rimraf node_modules",
+    "clean": "rimraf node_modules dist .turbo",
     "lint:code": "eslint . --cache",
     "lint:type": "tsc --pretty --noEmit"
   },
