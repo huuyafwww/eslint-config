@@ -19,15 +19,18 @@
     "clean:self": "rimraf node_modules .turbo",
     "lint:code": "turbo lint:code --parallel",
     "lint:type": "turbo lint:type --parallel",
+    "publish": "pnpm run publish:npm && turbo run publish:jsr",
+    "publish:jsr": "turbo run publish:jsr",
+    "publish:npm": "changeset publish",
     "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
     "version": "changeset",
-    "version:apply": "changeset version",
-    "version:publish": "changeset publish"
+    "version:apply": "changeset version"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.2",
     "@huuyafwww/tsconfig-common": "^1.1.1",
+    "jsr": "^0.13.4",
     "lefthook": "^1.11.11",
     "rimraf": "^6.0.1",
     "sort-package-json": "^2.15.1",

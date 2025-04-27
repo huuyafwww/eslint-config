@@ -20,6 +20,10 @@
     "lint:type": {
       "dependsOn": [],
       "inputs": ["**/*.ts"]
+    },
+    "publish:jsr": {
+      "dependsOn": [],
+      "inputs": ["**/*.ts"]
     }
   }
 }

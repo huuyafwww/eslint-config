@@ -35,7 +35,8 @@
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules dist .turbo",
     "lint:code": "eslint . --cache",
-    "lint:type": "tsc --pretty --noEmit"
+    "lint:type": "tsc --pretty --noEmit",
+    "publish:jsr": "jsr publish"
   },
   "dependencies": {
     "@praha/eslint-config-definer": "^2.0.1",
