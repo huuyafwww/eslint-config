@@ -26,12 +26,12 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
-    "@changesets/cli": "^2.29.2",
-    "@huuyafwww/tsconfig-common": "^1.1.1",
-    "lefthook": "^1.11.11",
+    "@changesets/cli": "^2.29.5",
+    "@huuyafwww/tsconfig-common": "^1.1.2",
+    "lefthook": "^1.12.2",
     "rimraf": "^6.0.1",
     "sort-package-json": "^2.15.1",
-    "turbo": "^2.5.0",
+    "turbo": "^2.5.5",
     "typescript": "^5.8.3"
   },
   "packageManager": "pnpm@10.9.0",
