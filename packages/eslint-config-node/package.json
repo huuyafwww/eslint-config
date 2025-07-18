@@ -43,10 +43,10 @@
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
-    "@types/node": "^22.14.1",
-    "eslint": "^9.25.0",
+    "@types/node": "^22.16.4",
+    "eslint": "^9.31.0",
     "jiti": "^2.4.2",
-    "pkgroll": "^2.12.1",
+    "pkgroll": "^2.14.3",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   },
