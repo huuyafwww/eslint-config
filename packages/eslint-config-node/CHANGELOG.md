@@ -1,5 +1,11 @@
 # @huuyafwww/eslint-config-node
 
+## 1.2.1
+
+### Patch Changes
+
+- [#43](https://github.com/huuyafwww/eslint-config/pull/43) [`75103e3`](https://github.com/huuyafwww/eslint-config/commit/75103e3a13d0442cb64f52177db699ca057b3240) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update dependencies
+
 ## 1.2.0
 
 ### Minor Changes
