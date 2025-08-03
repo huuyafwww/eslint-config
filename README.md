@@ -11,11 +11,13 @@ This repository is a detailed package of ESLint rules for me.
 |Name|Include rule|Package|
 |---|---|---|
 |[`@huuyafwww/eslint-config-browser`](packages/eslint-config-browser)|Browser|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-browser.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-browser)|
-|[`@huuyafwww/eslint-config-common`](packages/eslint-config-common)|JavaScript, TypeScript, import in ESM|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-common.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-common)|
+|[`@huuyafwww/eslint-config-common`](packages/eslint-config-common)|Ignore setting|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-common.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-common)|
+|[`@huuyafwww/eslint-config-javascript`](packages/eslint-config-javascript)|JavaScript, import in ESM|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-javascript.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-javascript)|
 |[`@huuyafwww/eslint-config-next`](packages/eslint-config-next)|Next.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-next.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-next)|
 |[`@huuyafwww/eslint-config-node`](packages/eslint-config-node)|Node.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-node.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-node)|
 |[`@huuyafwww/eslint-config-react`](packages/eslint-config-react)|React|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-react.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-react)|
 |[`@huuyafwww/eslint-config-storybook`](packages/eslint-config-storybook)|Storybook|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-storybook.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-storybook)|
+|[`@huuyafwww/eslint-config-typescript`](packages/eslint-config-typescript)|Typescript, import in ESM|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-typescript.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-typescript)|
 
 
 ## Features
@@ -30,8 +32,8 @@ However, legacy Config is not supported 😀
 
 |Name|Version|
 |---|---|
-|eslint|9.18.0|
-|jiti|^2.4.2|
+|eslint|^9.32.0|
+|jiti|^2.5.1|
 
 <details>
 
@@ -40,27 +42,30 @@ However, legacy Config is not supported 😀
 ### Installation
 
 ```sh
-pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-node @praha/eslint-config-definer
+pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-javascript @huuyafwww/eslint-config-typescript @huuyafwww/eslint-config-node @praha/eslint-config-definer
 ```
 
 ### eslint.config.ts
 
 ```typescript
 import { common } from '@huuyafwww/eslint-config-common';
+import { javascript } from '@huuyafwww/eslint-config-javascript';
 import { node } from '@huuyafwww/eslint-config-node';
+import { typescript } from '@huuyafwww/eslint-config-typescript';
 import { define } from '@praha/eslint-config-definer';
 
 import type { Linter } from 'eslint';
 
 const config = define([
   common,
+  javascript,
+  typescript,
   node,
 ]);
 
 export default config({
   tsconfigPath: './tsconfig.json',
 }) satisfies Linter.Config[];
-
 ```
 
 </details>
@@ -72,7 +77,7 @@ export default config({
 ### Installation
 
 ```sh
-pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-browser @huuyafwww/eslint-config-react @huuyafwww/eslint-config-next @praha/eslint-config-definer
+pnpm add -D @huuyafwww/eslint-config-common @huuyafwww/eslint-config-javascript @huuyafwww/eslint-config-typescript @huuyafwww/eslint-config-browser @huuyafwww/eslint-config-react @huuyafwww/eslint-config-next @praha/eslint-config-definer
 
 # Optional
 pnpm add -D @huuyafwww/eslint-config-storybook
@@ -83,15 +88,19 @@ pnpm add -D @huuyafwww/eslint-config-storybook
 ```typescript
 import { browser } from '@huuyafwww/eslint-config-browser';
 import { common } from '@huuyafwww/eslint-config-common';
+import { javascript } from '@huuyafwww/eslint-config-javascript';
 import { next } from '@huuyafwww/eslint-config-next';
 import { react } from '@huuyafwww/eslint-config-react';
 import { storybook } from '@huuyafwww/eslint-config-storybook';
+import { typescript } from '@huuyafwww/eslint-config-typescript';
 import { define } from '@praha/eslint-config-definer';
 
 import type { Linter } from 'eslint';
 
 const config = define([
   common,
+  javascript,
+  typescript,
   browser,
   react,
   next,

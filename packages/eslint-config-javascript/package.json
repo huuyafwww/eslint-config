@@ -1,6 +1,6 @@
 {
-  "name": "@huuyafwww/eslint-config-storybook",
-  "version": "1.2.1",
+  "name": "@huuyafwww/eslint-config-javascript",
+  "version": "0.0.1",
   "private": false,
   "description": "ESLint config for me",
   "homepage": "https://github.com/huuyafwww/eslint-config",
@@ -38,14 +38,14 @@
     "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {
+    "@eslint/js": "^9.32.0",
+    "@huuyafwww/eslint-config-common": "workspace:*",
     "@praha/eslint-config-definer": "^2.0.1",
-    "eslint-plugin-storybook": "^9.1.0"
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "eslint-plugin-unused-imports": "^4.1.4"
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
-    "@huuyafwww/eslint-config-javascript": "workspace:*",
-    "@huuyafwww/eslint-config-node": "workspace:*",
-    "@huuyafwww/eslint-config-typescript": "workspace:*",
     "@types/node": "^22.17.0",
     "eslint": "^9.32.0",
     "jiti": "^2.5.1",
