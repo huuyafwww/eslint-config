@@ -5,5 +5,10 @@ pre-commit:
   jobs:
     - name: Sort package.json
       run: pnpm run sort:package
-      glob: '{package.json,**/package.json}'
+      glob: "{package.json,**/package.json}"
+      stage_fixed: true
+
+    - name: Lint fix code
+      run: pnpm run lint:code:fix
+      glob: "{*.yaml,**/*.yaml,*.yml,**/*.yml,*.ts,**/*.ts,*.js,**/*.js}"
       stage_fixed: true

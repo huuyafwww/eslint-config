@@ -35,6 +35,7 @@
     "build:watch": "pkgroll --watch",
     "clean": "rimraf node_modules dist .turbo",
     "lint:code": "eslint . --cache",
+    "lint:code:fix": "eslint . --cache --fix",
     "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {

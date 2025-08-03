@@ -18,6 +18,7 @@ This repository is a detailed package of ESLint rules for me.
 |[`@huuyafwww/eslint-config-react`](packages/eslint-config-react)|React|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-react.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-react)|
 |[`@huuyafwww/eslint-config-storybook`](packages/eslint-config-storybook)|Storybook|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-storybook.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-storybook)|
 |[`@huuyafwww/eslint-config-typescript`](packages/eslint-config-typescript)|Typescript, import in ESM|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-typescript.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-typescript)|
+|[`@huuyafwww/eslint-config-yaml`](packages/eslint-config-yaml)|Yaml|[![npm version](https://badge.fury.io/js/@huuyafwww%2Feslint-config-yaml.svg)](https://www.npmjs.com/package/@huuyafwww/eslint-config-yaml)|
 
 
 ## Features
@@ -110,6 +111,33 @@ const config = define([
 export default config({
   tsconfigPath: './tsconfig.json',
 }) satisfies Linter.Config[];
+```
+
+</details>
+
+<details>
+
+<summary>Yaml</summary>
+
+### Installation
+
+```sh
+pnpm add -D @huuyafwww/eslint-config-yaml @praha/eslint-config-definer
+```
+
+### eslint.config.ts
+
+```typescript
+import { yaml } from '@huuyafwww/eslint-config-yaml';
+import { define } from '@praha/eslint-config-definer';
+
+import type { Linter } from 'eslint';
+
+const config = define([
+  yaml,
+]);
+
+export default config({}) satisfies Linter.Config[];
 ```
 
 </details>

@@ -15,7 +15,11 @@
     },
     "lint:code": {
       "dependsOn": [],
-      "inputs": ["**/*.ts", "**/*.js"]
+      "inputs": ["**/*.yml", "**/*.yaml", "**/*.ts", "**/*.js"]
+    },
+    "lint:code:fix": {
+      "dependsOn": [],
+      "inputs": ["**/*.yml", "**/*.yaml", "**/*.ts", "**/*.js"]
     },
     "lint:type": {
       "dependsOn": [],
