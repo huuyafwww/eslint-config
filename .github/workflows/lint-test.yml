@@ -30,6 +30,7 @@ jobs:
             packages/eslint-config-react/.eslintcache
             packages/eslint-config-storybook/.eslintcache
             packages/eslint-config-typescript/.eslintcache
+            packages/eslint-config-yaml/.eslintcache
           key: ${{ runner.os }}-eslint-cache-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-eslint-cache-
