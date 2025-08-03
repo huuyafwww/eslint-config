@@ -190,9 +190,6 @@ importers:
       '@huuyafwww/eslint-config-javascript':
         specifier: workspace:*
         version: link:../eslint-config-javascript
-      '@huuyafwww/eslint-config-node':
-        specifier: workspace:*
-        version: 'link:'
       '@huuyafwww/eslint-config-typescript':
         specifier: workspace:*
         version: link:../eslint-config-typescript
