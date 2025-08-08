@@ -1,6 +1,5 @@
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import eslintPluginImportX from 'eslint-plugin-import-x';
-import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 
 import { files } from '../files';
 
@@ -31,11 +30,9 @@ export const importConfigurator: Configurator<importConfiguratorOptions> = (opti
         },
       },
       plugins: {
-        'unused-imports': eslintPluginUnusedImports,
         'import-x': eslintPluginImportX as unknown as ESLint.Plugin,
       },
       rules: {
-        'unused-imports/no-unused-imports': 'error',
         'import-x/named': 'off',
         'import-x/newline-after-import': ['error', {
           count: 1,
