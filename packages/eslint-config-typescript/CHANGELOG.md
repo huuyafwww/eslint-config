@@ -1,5 +1,14 @@
 # @huuyafwww/eslint-config-typescript
 
+## 1.0.1
+
+### Patch Changes
+
+- [#50](https://github.com/huuyafwww/eslint-config/pull/50) [`c68e132`](https://github.com/huuyafwww/eslint-config/commit/c68e13269b32c75021c309bf112f54ab2474b32e) Thanks [@huuyafwww](https://github.com/huuyafwww)! - fix Key "plugins": Cannot redefine plugin "unused-imports" error
+
+- Updated dependencies [[`c68e132`](https://github.com/huuyafwww/eslint-config/commit/c68e13269b32c75021c309bf112f54ab2474b32e)]:
+  - @huuyafwww/eslint-config-javascript@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
