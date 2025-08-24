@@ -1,6 +1,6 @@
 {
   "name": "@huuyafwww/eslint-config-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "ESLint config for me",
   "homepage": "https://github.com/huuyafwww/eslint-config",
