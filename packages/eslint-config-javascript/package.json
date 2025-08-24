@@ -39,23 +39,23 @@
     "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "^9.32.0",
+    "@eslint/js": "^9.34.0",
     "@huuyafwww/eslint-config-common": "workspace:*",
     "@praha/eslint-config-definer": "^2.0.1",
     "@stylistic/eslint-plugin": "^2.13.0",
-    "eslint-plugin-unused-imports": "^4.1.4"
+    "eslint-plugin-unused-imports": "^4.2.0"
   },
   "devDependencies": {
     "@huuyafwww/eslint-config-common": "workspace:*",
-    "@types/node": "^22.17.0",
-    "eslint": "^9.32.0",
+    "@types/node": "^22.17.2",
+    "eslint": "^9.34.0",
     "jiti": "^2.5.1",
-    "pkgroll": "^2.15.0",
+    "pkgroll": "^2.15.3",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
-    "eslint": "^9.32.0",
+    "eslint": "^9.34.0",
     "jiti": "^2.5.1"
   },
   "publishConfig": {
