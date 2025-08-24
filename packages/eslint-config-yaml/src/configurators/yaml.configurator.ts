@@ -15,6 +15,7 @@ export const yamlConfigurator: Configurator = () => {
       rules: {
         'yml/block-mapping-colon-indicator-newline': 'error',
         'yml/vue-custom-block/no-parsing-error': 'error',
+        'yml/no-empty-mapping-value': 'off',
       },
     },
   ];
