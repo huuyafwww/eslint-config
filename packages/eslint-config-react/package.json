@@ -58,7 +58,7 @@
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "jiti": "^2.5.1"
   },
   "publishConfig": {
