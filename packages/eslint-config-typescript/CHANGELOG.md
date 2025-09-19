@@ -1,5 +1,14 @@
 # @huuyafwww/eslint-config-typescript
 
+## 1.0.3
+
+### Patch Changes
+
+- [#56](https://github.com/huuyafwww/eslint-config/pull/56) [`52034af`](https://github.com/huuyafwww/eslint-config/commit/52034aff6157e1cf143befc467ed5a384afd9e64) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update dependencies
+
+- Updated dependencies [[`52034af`](https://github.com/huuyafwww/eslint-config/commit/52034aff6157e1cf143befc467ed5a384afd9e64)]:
+  - @huuyafwww/eslint-config-javascript@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes
